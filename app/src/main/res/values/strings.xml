@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Sardinia Quiz</string>
+    <!-- Header String -->
+    <string name="header">Sardinia Quiz</string>
+    <!-- Description String -->
+    <string name="description">Test your knowledge of the Sardinia land</string>
+    <!-- Casu martzu question and answers String  -->
+    <string name="question_casu_martzu">What is casu martzu?</string>
+    <string name="option_casu_martzy_one">A typical Sardinia cheese</string>
+    <string name="option_casu_martzy_two">A biscuit name</string>
+    <string name="option_casu_martzy_three">A folkloric dance</string>
+    <string name="option_casu_martzy_four">The name of a famous beach</string>
+    <!-- Why visit Sardinia question and answers String-->
+    <string name="question_why_visit_sardinia">Why visit Sardinia?</string>
+    <string name="option_why_visit_one">For the crystal clear sea</string>
+    <string name="option_why_visit_two">For traditions</string>
+    <string name="option_why_visit_three">For the (good) food</string>
+    <string name="option_why_visit_four">For the charm of Sardinia women</string>
+    <!-- What is nuraghe question and answers String-->
+    <string name="question_nuraghe">What is a nuraghe?</string>
+    <string name="option_nuraghe_one">A popular parlour game</string>
+    <string name="option_nuraghe_two">This word does not exist</string>
+    <string name="option_nuraghe_three">Is the main type of ancient megalithic edifice</string>
+    <string name="option_nuraghe_four">The name of the bigger popular tunnel in Sardinia</string>
+    <!-- What is typical Sardinia flag question and answers String -->
+    <string name="question_sardinia_flag">What is the name of the typical Sardinia flag?</string>
+    <string name="option_four_moors">The Four Moors</string>
+    <string name="option_flamingo_flag">Flamingo flag</string>
+    <string name="option_wild_boar_flag">Wild boar flag</string>
+    <string name="option_happy_flag">Happy flag</string>
+    <!-- Island or no question String -->
+    <string name="question_is_sardinia_an_island">Is Sardinia an island?</string>
+    <string name="button_submit">SUBMIT</string>
+    <string name="button_reset">RESET</string>
+    <!-- What is typical Sardinia dishes String -->
+    <string name="question_typical_sardinia_dishes">What are the typical Sardinia dishes?</string>
+    <string name="option_typical_sardinia_dishes_porceddu">Porceddu</string>
+    <string name="option_typical_sardinia_dishes_bottarga">Bottarga</string>
+    <string name="option_typical_sardinia_dishes_carasau">Pane carasau</string>
+    <string name="option_typical_sardinia_dishes_lasagne">Lasagne</string>
+    <string name="option_typical_sardinia_dishes_culungiones">Culurgiones</string>
+    <string name="option_typical_sardinia_dishes_mirto">Mirto</string>
+    <string name="option_typical_sardinia_dishes_pizza">Pizza</string>
+
+</resources>

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_Quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Here Header-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/header"
+                android:text="@string/header" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="#009688" />
+
+            <TextView
+                style="@style/textView_description"
+                android:text="@string/description" />
+        </LinearLayout>
+
+        <!--Content-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--First question-->
+            <TextView
+                style="@style/textView_question"
+                android:text="@string/question_casu_martzu" />
+
+            <!-- Answer options -->
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_casu_martzu_one"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/option_casu_martzy_one" />
+
+                <RadioButton
+                    android:id="@+id/radio_casu_martzu_two"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/option_casu_martzy_two" />
+
+                <RadioButton
+                    android:id="@+id/radio_casu_martzu_three"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/option_casu_martzy_three" />
+
+                <RadioButton
+                    android:id="@+id/radio_casu_martzu_four"
+                    style="@style/RadioButtonStyle"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/option_casu_martzy_four" />
+
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#009688" />
+
+
+            <!--Second question-->
+            <TextView
+                style="@style/textView_question"
+                android:text="@string/question_why_visit_sardinia" />
+
+            <!--Answer options-->
+            <CheckBox
+                android:id="@+id/checkbox_visit_one"
+                style="@style/CheckBoxStyle"
+                android:text="@string/option_why_visit_one" />
+
+            <CheckBox
+                android:id="@+id/checkbox_visit_two"
+                style="@style/CheckBoxStyle"
+                android:text="@string/option_why_visit_two" />
+
+            <CheckBox
+                android:id="@+id/checkbox_visit_three"
+                style="@style/CheckBoxStyle"
+                android:text="@string/option_why_visit_three" />
+
+            <CheckBox
+                android:id="@+id/checkbox_visit_four"
+                style="@style/CheckBoxStyle"
+                android:layout_marginBottom="8dp"
+                android:text="@string/option_why_visit_four" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#009688" />
+
+            <!--Third question -->
+            <TextView
+                style="@style/textView_question"
+                android:text="@string/question_nuraghe" />
+
+            <!--Answer options-->
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_nuraghe_one"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/option_nuraghe_one" />
+
+                <RadioButton
+                    android:id="@+id/radio_nuraghe_two"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/option_nuraghe_two" />
+
+
+                <RadioButton
+                    android:id="@+id/radio_nuraghe_three"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/option_nuraghe_three" />
+
+                <RadioButton
+                    android:id="@+id/radio_nuraghe_four"
+                    style="@style/RadioButtonStyle"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/option_nuraghe_four" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#009688" />
+
+            <!--Fourth question-->
+            <TextView
+                style="@style/textView_question"
+                android:text="@string/question_sardinia_flag" />
+
+            <!--Answer options-->
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/radio_flag_four_moors"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/option_four_moors" />
+
+                <RadioButton
+                    android:id="@+id/radio_flag_flamingo"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/option_flamingo_flag" />
+
+                <RadioButton
+                    android:id="@+id/radio_flag_boar"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/option_wild_boar_flag" />
+
+                <RadioButton
+                    android:id="@+id/radio_flag_happy"
+                    style="@style/RadioButtonStyle"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/option_happy_flag" />
+
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#009688" />
+
+            <!-- Fifth question -->
+            <TextView
+                style="@style/textView_question"
+                android:text="@string/question_is_sardinia_an_island" />
+
+            <!-- Answer -->
+            <EditText
+                android:id="@+id/sardinia_island"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:hint="Type yes or no here"
+                android:maxLength="4" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#009688" />
+
+
+            <!-- Sixth question-->
+            <TextView
+                style="@style/textView_question"
+                android:text="@string/question_typical_sardinia_dishes" />
+
+            <!--Answer options-->
+            <CheckBox
+                android:id="@+id/checkbox_sardinia_dishes_porceddu"
+                style="@style/CheckBoxStyle"
+                android:text="@string/option_typical_sardinia_dishes_porceddu" />
+
+            <CheckBox
+                android:id="@+id/checkbox_sardinia_dishes_bottarga"
+                style="@style/CheckBoxStyle"
+                android:text="@string/option_typical_sardinia_dishes_bottarga" />
+
+            <CheckBox
+                android:id="@+id/checkbox_sardinia_dishes_carasau"
+                style="@style/CheckBoxStyle"
+                android:text="@string/option_typical_sardinia_dishes_carasau" />
+
+            <CheckBox
+                android:id="@+id/checkbox_sardinia_dishes_lasagne"
+                style="@style/CheckBoxStyle"
+                android:layout_marginBottom="8dp"
+                android:text="@string/option_typical_sardinia_dishes_lasagne" />
+
+            <CheckBox
+                android:id="@+id/checkbox_sardinia_dishes_culungiones"
+                style="@style/CheckBoxStyle"
+                android:layout_marginBottom="8dp"
+                android:text="@string/option_typical_sardinia_dishes_culungiones" />
+
+            <CheckBox
+                android:id="@+id/checkbox_sardinia_dishes_mirto"
+                style="@style/CheckBoxStyle"
+                android:layout_marginBottom="8dp"
+                android:text="@string/option_typical_sardinia_dishes_mirto" />
+
+            <CheckBox
+                android:id="@+id/checkbox_sardinia_dishes_pizza"
+                style="@style/CheckBoxStyle"
+                android:layout_marginBottom="8dp"
+                android:text="@string/option_typical_sardinia_dishes_pizza" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#009688" />
+
+
+            <!--Submit button-->
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/teal"
+                android:onClick="submit"
+                android:text="@string/button_submit"
+                android:textColor="#FFF"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
